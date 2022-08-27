@@ -43,6 +43,8 @@ ul {
     display: flex;
     padding: 90px 180px;
     background-color: #1f2937;
+    justify-content: center;
+    
 }
 
 .intro-content .main {
@@ -91,6 +93,8 @@ ul {
 .information .sub {
     display: flex;
     gap: 48px;
+    align-items: center;
+    justify-content: center;
 }
 
 .information .main {
@@ -101,6 +105,7 @@ ul {
     font-weight: bolder;
     color: #1f2937;
     padding: 40px 0;
+    text-align: center;
 }
 
 .card {
@@ -120,4 +125,68 @@ ul {
 .card .content {
     color: #1f2937d2;
     text-align: center;
+}
+
+.quote {
+    padding: 90px 0;
+    background-color: #e5e7eb;
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote .main {
+    width: 55%;
+}
+
+.quote .author {
+    font-size: 22px;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.sign-up-section {
+    margin: 80px 0;
+    padding: 50px 120px;
+    justify-self: center;
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    color: #f9faf8;
+
+}
+
+.sign-up-section button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    margin-top: 8px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.sign-up-section .main {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    
 }
